@@ -182,6 +182,7 @@
                 <artifactId>maven-plugin-plugin</artifactId>
                 <configuration>
                     <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
+                    <goalPrefix>oc</goalPrefix>
                 </configuration>
                 <version>${maven-plugin-plugin.version}</version>
                 <executions>
