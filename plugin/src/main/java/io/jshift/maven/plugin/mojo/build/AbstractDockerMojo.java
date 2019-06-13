@@ -628,7 +628,7 @@ public abstract class AbstractDockerMojo extends AbstractMojo implements ConfigH
     }
 
     protected boolean isDockerAccessRequired() {
-        return true; // True in case of kubernetes maven plugin
+        return false; // True in case of kubernetes maven plugin
     }
 
     protected void executeBuildGoal(ServiceHub hub) throws IOException, MojoExecutionException {
@@ -721,7 +721,7 @@ public abstract class AbstractDockerMojo extends AbstractMojo implements ConfigH
     }
 
     protected String getLogPrefix() {
-        return "k8s: ";
+        return "oc: ";
     }
 
     // ==================================================================================================

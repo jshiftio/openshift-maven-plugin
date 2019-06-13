@@ -35,15 +35,15 @@ public abstract class AbstractJshiftMojo extends AbstractMojo {
     protected MavenSession session;
 
     // Whether to use color
-    @Parameter(property = "fabric8.useColor", defaultValue = "true")
+    @Parameter(property = "jshift.useColor", defaultValue = "true")
     protected boolean useColor;
 
     // To skip over the execution of the goal
-    @Parameter(property = "fabric8.skip", defaultValue = "false")
+    @Parameter(property = "jshift.skip", defaultValue = "false")
     protected boolean skip;
 
     // For verbose output
-    @Parameter(property = "fabric8.verbose", defaultValue = "false")
+    @Parameter(property = "jshift.verbose", defaultValue = "false")
     protected boolean verbose;
 
     // Settings holding authentication info
@@ -79,7 +79,7 @@ public abstract class AbstractJshiftMojo extends AbstractMojo {
     }
 
     protected KitLogger createLogger(String prefix) {
-        return new AnsiLogger(getLog(), useColor, verbose, !settings.getInteractiveMode(), "k8s:" + prefix);
+        return new AnsiLogger(getLog(), useColor, verbose, !settings.getInteractiveMode(), "oc:" + prefix);
     }
 
     protected ClusterConfiguration getClusterConfiguration() {
