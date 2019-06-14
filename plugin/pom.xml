@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
       <groupId>io.jshift</groupId>
-      <artifactId>openshift-maven-plugin-build</artifactId>
+      <artifactId>oc-maven-plugin-build</artifactId>
       <version>0.1-SNAPSHOT</version>
       <relativePath>../pom.xml</relativePath>
     </parent>
@@ -15,7 +15,7 @@
     </prerequisites>
 
     <groupId>io.jshift</groupId>
-    <artifactId>openshift-maven-plugin</artifactId>
+    <artifactId>oc-maven-plugin</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
     <name>Openshift Maven Plugin</name>
@@ -182,7 +182,6 @@
                 <artifactId>maven-plugin-plugin</artifactId>
                 <configuration>
                     <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
-                    <goalPrefix>oc</goalPrefix>
                 </configuration>
                 <version>${maven-plugin-plugin.version}</version>
                 <executions>
