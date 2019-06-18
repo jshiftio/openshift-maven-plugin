@@ -143,7 +143,7 @@ public class WatchMojo extends AbstractDockerMojo {
     private File resourceDir;
 
     /**
-     * Environment name where resources are placed. For example, if you set this property to dev and resourceDir is the default one, Fabric8 will look at src/main/jshift/dev
+     * Environment name where resources are placed. For example, if you set this property to dev and resourceDir is the default one, Plugin will look at src/main/jshift/dev
      */
     @Parameter(property = "jshift.environment")
     private String environment;
@@ -154,7 +154,7 @@ public class WatchMojo extends AbstractDockerMojo {
 
     // For verbose output
     @Parameter(property = "jshift.verbose", defaultValue = "false")
-    protected boolean verbose;
+    protected String verbose;
 
     @Component
     protected RepositorySystem repositorySystem;

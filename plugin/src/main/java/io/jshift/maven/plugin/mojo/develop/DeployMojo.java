@@ -26,7 +26,7 @@ import org.apache.maven.plugins.annotations.ResolutionScope;
 /**
  * This goal forks the install goal then applies the generated kubernetes resources to the current cluster.
  *
- * Note that the goals fabric8:resource and fabric8:build must be bound to the proper execution phases.
+ * Note that the goals oc:resource and oc:build must be bound to the proper execution phases.
  *
  * @author roland
  * @since 09/06/16

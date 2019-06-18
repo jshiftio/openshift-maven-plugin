@@ -80,7 +80,7 @@ import java.util.Objects;
 import java.util.Set;
 
 /**
- * Base class for goals which deploy the generated artifacts into the Kubernetes cluster
+ * Base class for goals which deploy the generated artifacts into the Openshift cluster
  */
 @Mojo(name = "apply", requiresDependencyResolution = ResolutionScope.COMPILE, defaultPhase = LifecyclePhase.INSTALL)
 public class ApplyMojo extends AbstractJshiftMojo {
