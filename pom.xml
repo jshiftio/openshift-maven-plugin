@@ -18,6 +18,7 @@
 
   <modules>
     <module>plugin</module>
+    <module>it</module>
   </modules>
 
   <dependencyManagement>
