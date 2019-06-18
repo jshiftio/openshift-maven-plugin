@@ -28,12 +28,12 @@ for running a single test.
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>io.jshift</groupId>
-    <artifactId>openshift-maven-plugin-build</artifactId>
+    <artifactId>oc-maven-plugin-build</artifactId>
     <version>0.1-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>openshift-maven-it</artifactId>
+  <artifactId>oc-maven-it</artifactId>
   <version>0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
