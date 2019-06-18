@@ -1,9 +1,11 @@
-## openshift-maven-plugin
+## Openshift Maven Plugin
 
 [![Circle CI](https://circleci.com/gh/jshiftio/openshift-maven-plugin/tree/master.svg?style=shield)](https://circleci.com/gh/jshiftio/openshift-maven-plugin/tree/master)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=jshiftio_openshift-maven-plugin&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=jshiftio_openshift-maven-plugin)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=jshiftio_openshift-maven-plugin&metric=sqale_index)](https://sonarcloud.io/dashboard?id=jshiftio_openshift-maven-plugin)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=jshiftio_openshift-maven-plugin&metric=coverage)](https://sonarcloud.io/dashboard?id=jshiftio_openshift-maven-plugin)
+
+![Sample Demo](oc-maven-plugin-demo.gif)
 
 ### Introduction
 This Maven plugin is a one-stop-shop for building and deploying Java applications for OpenShift. It brings your Java applications on to OpenShift. It provides a tight integration into maven and benefits from the build configuration already provided. It focuses on three tasks:
