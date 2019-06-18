@@ -44,7 +44,7 @@ public abstract class AbstractJshiftMojo extends AbstractMojo {
 
     // For verbose output
     @Parameter(property = "jshift.verbose", defaultValue = "false")
-    protected boolean verbose;
+    protected String verbose;
 
     // Settings holding authentication info
     @Parameter(defaultValue = "${settings}", readonly = true)
