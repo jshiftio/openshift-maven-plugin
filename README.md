@@ -1,6 +1,7 @@
 ## Openshift Maven Plugin
 
 [![Circle CI](https://circleci.com/gh/jshiftio/openshift-maven-plugin/tree/master.svg?style=shield)](https://circleci.com/gh/jshiftio/openshift-maven-plugin/tree/master)
+[![Maven Central](https://img.shields.io/maven-central/v/io.jshift/oc-maven-plugin.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.jshift%22%20AND%20a:%22oc-maven-plugin%22)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=jshiftio_openshift-maven-plugin&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=jshiftio_openshift-maven-plugin)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=jshiftio_openshift-maven-plugin&metric=sqale_index)](https://sonarcloud.io/dashboard?id=jshiftio_openshift-maven-plugin)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=jshiftio_openshift-maven-plugin&metric=coverage)](https://sonarcloud.io/dashboard?id=jshiftio_openshift-maven-plugin)
@@ -14,23 +15,23 @@ This Maven plugin is a one-stop-shop for building and deploying Java application
 + Deploy application on OpenShift
 
 ### Usage
-To enable openshift maven plugin on your project just add this to the plugins sections of your pom.xml:
+To enable Openshift maven plugin on your project just add this to the plugins sections of your pom.xml:
 
 ```
       <plugin>
         <groupId>io.jshift</groupId>
-        <artifactId>openshift-maven-plugin</artifactId>
+        <artifactId>oc-maven-plugin</artifactId>
         <version>${jshift.openshift.version}</version>
       </plugin>
 ```
 
 | Goal                                          | Description                           |
 | --------------------------------------------- | ------------------------------------- |
-| [`openshift:resource`](https://fabric8io.github.io/fabric8-maven-plugin/#fabric8:resource) | Create OpenShift resource descriptors |
-| [`openshift:build`](https://fabric8io.github.io/fabric8-maven-plugin/#fabric8:build) | Build Docker images |
-| [`openshift:push`](https://fabric8io.github.io/fabric8-maven-plugin/#fabric8:push) | Push Docker images to a registry  |
-| [`openshift:deploy`](https://fabric8io.github.io/fabric8-maven-plugin/#fabric8:deploy) | Deploy OpenShift resource objects to a cluster  |
-| [`openshift:watch`](https://fabric8io.github.io/fabric8-maven-plugin/#fabric8:watch) | Watch for doing rebuilds and restarts |
+| [`oc:resource`](https://fabric8io.github.io/fabric8-maven-plugin/#fabric8:resource) | Create OpenShift resource descriptors |
+| [`oc:build`](https://fabric8io.github.io/fabric8-maven-plugin/#fabric8:build) | Build Docker images |
+| [`oc:push`](https://fabric8io.github.io/fabric8-maven-plugin/#fabric8:push) | Push Docker images to a registry  |
+| [`oc:deploy`](https://fabric8io.github.io/fabric8-maven-plugin/#fabric8:deploy) | Deploy OpenShift resource objects to a cluster  |
+| [`oc:watch`](https://fabric8io.github.io/fabric8-maven-plugin/#fabric8:watch) | Watch for doing rebuilds and restarts |
 
 ### Features
 
