@@ -1,5 +1,7 @@
 ## Openshift Maven Plugin
 
+> *Note: This repository has been moved to [Eclipse Jkube](https://github.com/eclipse/jkube/tree/master/openshift-maven-plugin). In case you want to contribute please send PRs to https://github.com/eclipse/jkube repo*.
+
 [![Circle CI](https://circleci.com/gh/jshiftio/openshift-maven-plugin/tree/master.svg?style=shield)](https://circleci.com/gh/jshiftio/openshift-maven-plugin/tree/master)
 [![Maven Central](https://img.shields.io/maven-central/v/io.jshift/oc-maven-plugin.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.jshift%22%20AND%20a:%22oc-maven-plugin%22)
 [![Gitter](https://badges.gitter.im/jshift-community/community.svg)](https://gitter.im/jshift-community/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
